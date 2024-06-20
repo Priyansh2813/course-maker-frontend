@@ -9,7 +9,7 @@ import { adminReducer } from './reducers/adminReducer';
 import { otherReducer } from './reducers/otherReducer';
 
 export const server =
-  'https://couremaker-backend-jk263lbw0-priyansh2813.vercel.app/';
+  'https://couremaker-backend-mkl3-git-master-priyansh2813s-projects.vercel.app/api/v1';
 
 const store = configureStore({
   reducer: {

@@ -32,7 +32,8 @@ const ForgotPassword = () => {
         textTransform={'uppercase'}
         textAlign={["center","left"]}
 
-        /><VStack>
+        />
+        <VStack>
         <Input
         required
         value={email}

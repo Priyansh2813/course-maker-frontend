@@ -29,6 +29,7 @@ export const loadUser=()=>async(dispatch)=>{
 
         dispatch({type:"loadUserSuccess",payload:data.user});
     } catch (error) {
+        console.log("reaching here")
         dispatch({type:"loadUserFailed",payload:error.response.data.message});
     }
 };
