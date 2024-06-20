@@ -9,7 +9,7 @@ import { adminReducer } from './reducers/adminReducer';
 import { otherReducer } from './reducers/otherReducer';
 
 export const server =
-  'https://couremaker-backend-mkl3-git-master-priyansh2813s-projects.vercel.app/api/v1';
+  'https://course-maker-back.onrender.com/api/v1';
 
 const store = configureStore({
   reducer: {
