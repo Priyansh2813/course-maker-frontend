@@ -16,8 +16,6 @@ root.render(
     <App />
     </ChakraProvider>
     </ReduxProvider>
-    
-    
   </StrictMode>
 );
 
